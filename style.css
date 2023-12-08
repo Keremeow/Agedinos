@@ -8,29 +8,45 @@ body{
     height: 125px;
     width: 125px;
     border-radius: 50%;
+    
 
 }
 
-div{
+.Logo{
     display: inline-block;
+    place-self: start;
 }
 
 .headewrite {
     border: 5px solid;
-    text-align: center;
+    border-color: black;
+    padding-left: 50px;
+   
 
-
- 
 }
 
 .p1 {
     font-size: 30px;
 }
 
-table {
-   
-    
-}
-td {;
+.hda {
+    display: inline-block;
     padding: 25px;
+}
+
+.Flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.Flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maindino {
+    padding-right: 160px;
 }
