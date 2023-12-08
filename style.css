@@ -8,22 +8,29 @@ body{
     height: 125px;
     width: 125px;
     border-radius: 50%;
+
 }
 
-.header {
-    height: 50px;
-    width: 1200px;
-    margin: auto;
-    border: 5cm;
-    border-color: black;
+div{
+    display: inline-block;
+}
+
+.headewrite {
+    border: 5px solid;
+    text-align: center;
+
+
+ 
 }
 
 .p1 {
     font-size: 30px;
-    text-align: left;
 }
 
-.p2 {
-    font-size: 30px;
-    text-align: right;
+table {
+   
+    
+}
+td {;
+    padding: 25px;
 }
