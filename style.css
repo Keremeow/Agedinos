@@ -1,11 +1,29 @@
 body{
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
+    background-image: url(Images/Ark.jpg);
+    
     
 }
 
-h1{
-    font-size: 300%;
-    color: palevioletred;
-    
+.Logo img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+}
+
+.header {
+    height: 50px;
+    width: 1200px;
+    margin: auto;
+    border: 5cm;
+    border-color: black;
+}
+
+.p1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.p2 {
+    font-size: 30px;
+    text-align: right;
 }
