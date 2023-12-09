@@ -5,22 +5,23 @@ body{
 }
 
 .Logo img {
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
+    
     
 
 }
 
-.Logo{
+.logoc{
     display: inline-block;
     place-self: start;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
 }
 
 .headewrite {
     border: 5px solid;
     border-color: black;
-    padding-left: 50px;
+    padding-left:50px;
    
 
 }
@@ -31,7 +32,7 @@ body{
 
 .hda {
     display: inline-block;
-    padding: 25px;
+    padding: 20px;
 }
 
 .Flexbox2 {
@@ -49,4 +50,36 @@ body{
 
 .maindino {
     padding-right: 160px;
+}
+
+.entsize {
+    height: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+
+}
+
+.maintext {
+    border: 5px solid;
+    width: 700px;
+    height: 750px;
+    text-size-adjust: 40px;
+    text-align: center;
+    margin: auto;
+    margin-right: 597px;
+    background-color:rgb(0, 0, 0);
+    opacity: 0.6;
+    
+}
+
+.textheading{
+    color: rgba(255, 255, 255)
+    
+}
+
+.p2{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    text-align: left;
+    padding-left: 12px;
 }
