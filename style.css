@@ -1,85 +1,81 @@
-body{
-    background-image: url(Images/Ark.jpg);
-    
-    
+body {
+  background-image: url(Images/Ark.jpg);
 }
 
-.Logo img {
-    
-    
-
-}
-
-.logoc{
-    display: inline-block;
-    place-self: start;
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
-}
-
-.headewrite {
-    border: 5px solid;
-    border-color: black;
-    padding-left:50px;
-   
-
-}
-
-.p1 {
-    font-size: 30px;
+.logoc:hover,
+.hda:hover {
+  scale: 1.1;
 }
 
 .hda {
-    display: inline-block;
-    padding: 20px;
+  transition: 0.25s all;
+}
+
+.logoc {
+  display: inline-block;
+  place-self: start;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  transition: 0.25s all;
+}
+
+.headewrite {
+  border: 5px solid;
+  border-color: black;
+  padding-left: 50px;
+}
+
+.p1 {
+  font-size: 30px;
+}
+
+.hda {
+  display: inline-block;
+  padding: 20px;
 }
 
 .Flexbox2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
 }
 
 .Flexbox {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .maindino {
-    padding-right: 160px;
+  padding-right: 160px;
 }
 
 .entsize {
-    height: 50px;
-    padding-right: 40px;
-    padding-top: 20px;
-
+  height: 50px;
+  padding-right: 40px;
+  padding-top: 20px;
 }
 
 .maintext {
-    border: 5px solid;
-    width: 700px;
-    height: 750px;
-    text-size-adjust: 40px;
-    text-align: center;
-    margin: auto;
-    margin-right: 597px;
-    background-color:rgb(0, 0, 0);
-    opacity: 0.6;
-    
+  border: 5px solid;
+  width: 700px;
+  height: 750px;
+  text-size-adjust: 40px;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
 }
 
-.textheading{
-    color: rgba(255, 255, 255)
-    
+.textheading {
+  color: rgba(255, 255, 255);
 }
 
-.p2{
-    color: rgb(255, 255, 255);
-    font-size: 23px;
-    text-align: left;
-    padding-left: 12px;
+.p2 {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  text-align: left;
+  padding-left: 12px;
 }
