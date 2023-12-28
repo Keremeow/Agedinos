@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(Images/Ark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    body,
+    html {
+        background-image: url(Images/ArkMobile.jpg);
+    }
+}
+
+.logoc:hover,
+.hda:hover {
+    scale: 1.1;
+}
+
+.hda {
+    transition: 0.25s all;
+}
+
+.logoc {
+    display: inline-block;
+    place-self: start;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    transition: 0.25s all;
+}
+
+.maindino {
+    padding-right: 160px;
+}
+
+.footerinfo {
+    border: 5px solid;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    opacity: 0.75;
+}
+.Flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
