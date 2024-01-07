@@ -72,13 +72,12 @@ body {
   width: 700px;
   text-size-adjust: 40px;
   text-align: center;
-  margin: auto;
   background-color: rgb(0, 0, 0);
   opacity: 0.8;
   height: 100%
 }
 .paddingbar{
-  padding-right: 18%;
+  padding-right: 20%;
 }
 
 .textheading {
@@ -149,4 +148,7 @@ body {
 }
 .toolist{
   padding: 5px;
+}
+.check{
+  
 }
