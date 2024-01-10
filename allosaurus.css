@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(Images/allosaur.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    body,
+    html {
+        background-image: url(Images/ArkMobile.jpg);
+    }
+}
+
+.logoc:hover,
+.hda:hover {
+    scale: 1.1;
+}
+
+.hda {
+    transition: 0.25s all;
+}
+
+.logoc {
+    display: inline-block;
+    place-self: start;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    transition: 0.25s all;
+}
+
+.maindino {
+    padding-right: 160px;
+}
+
+.footerinfo {
+    border: 5px solid;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.Flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.samplediv {
+    text-size-adjust: 40px;
+    background-color: black;
+    opacity: 0.75;
+    width: 1250px;
+    height: 720px;
+    text-align: left;
+    align-items: left;
+    border: 3px solid;
+    border-color: #ffffff;
+
+}
+
+.p2 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.p3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: left;
+}
+
+.textheading {
+    color: rgba(255, 255, 255);
+    padding-left: 12px;
+}
+
+.toolbar {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.75;
+    border: 3px solid;
+    border-color: #ffffff;
+}
+
+.hover-underline-animation {
+    display: inline;
+    position: relative;
+    color: #ffffff;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.FlexboxTool {
+    display: flex;
+
+}
+
+.toolbar h2 {
+    margin-top: 0;
+}
