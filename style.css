@@ -58,7 +58,7 @@ body {
 }
 
 .maindino {
-  padding-left: 8.5%;
+  padding-left: 13.5%;
 }
 
 .entsize {
@@ -78,7 +78,7 @@ body {
   border-color: #ffffff;
 }
 .paddingbar{
-  padding-right: 20%;
+  padding-right: 19.5%;
 }
 
 .textheading {
@@ -110,13 +110,11 @@ body {
 .carnivorelogos{
   height: 100%;
   width: 100%;
-  padding: 20px;
 }
 .Flexboxcarnivores{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   padding-right: 75px;
   
 }

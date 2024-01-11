@@ -7,20 +7,20 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    max-height: 100vh;
 }
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
 .container{
     width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 8%;
+    padding: 50px 8%;   
+    padding-top: 10%;
 
 }
 .gallery{
@@ -91,7 +91,7 @@ body {
 }
 
 .maindino {
-    padding-left: 8.5%;
+    padding-left: 13.5%;
 }
 
 .entsize {
