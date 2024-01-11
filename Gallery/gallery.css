@@ -1,0 +1,359 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../Images/newbg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
+}
+.size{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border: 3px solid;
+    border-color: #ffffff;
+}
+@media only screen and (max-width: 1024px) {
+
+    body,
+    html {
+        background-image: url(Images/ArkMobile.jpg);
+    }
+}
+
+.logoc:hover,
+.hda:hover {
+    scale: 1.1;
+}
+
+.hda {
+    transition: 0.25s all;
+}
+
+.logoc {
+    display: inline-block;
+    place-self: start;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    transition: 0.25s all;
+}
+
+.headwrite {
+    margin-left: 2.4%;
+}
+
+.p1 {
+    font-size: 30px;
+}
+
+.hda {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.Flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maindino {
+    padding-left: 8.5%;
+}
+
+.entsize {
+    height: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.maintext {
+    width: 700px;
+    text-size-adjust: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    height: 100%;
+    border: 3px solid;
+    border-color: #ffffff;
+}
+
+.paddingbar {
+    padding-right: 20%;
+}
+
+.textheading {
+    color: rgba(255, 255, 255);
+}
+
+.p2 {
+    color: rgb(255, 255, 255);
+    font-size: 21.86px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.p3 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: left;
+}
+
+.footerinfo {
+    border: 5px solid;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.carnivorelogos {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.Flexboxcarnivores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 75px;
+
+}
+
+.toolbar {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border: 3px solid;
+    border-color: #ffffff;
+}
+
+.hover-underline-animation {
+    display: inline;
+    position: relative;
+    color: #ffffff;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.toolist {
+    padding: 5px;
+}
+
+.gallerypad {
+    padding-right: 1rem;
+}@media only screen and (max-width: 1024px) {
+
+    body,
+    html {
+        background-image: url(Images/ArkMobile.jpg);
+    }
+}
+
+.logoc:hover,
+.hda:hover {
+    scale: 1.1;
+}
+
+.hda {
+    transition: 0.25s all;
+}
+
+.logoc {
+    display: inline-block;
+    place-self: start;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    transition: 0.25s all;
+}
+
+.headwrite {
+    margin-left: 2.4%;
+}
+
+.p1 {
+    font-size: 30px;
+}
+
+.hda {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.Flexbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.maindino {
+    padding-left: 8.5%;
+}
+
+.entsize {
+    height: 50px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.maintext {
+    width: 700px;
+    text-size-adjust: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    height: 100%;
+    border: 3px solid;
+    border-color: #ffffff;
+}
+
+.paddingbar {
+    padding-right: 20%;
+}
+
+.textheading {
+    color: rgba(255, 255, 255);
+}
+
+.p2 {
+    color: rgb(255, 255, 255);
+    font-size: 21.86px;
+    text-align: left;
+    padding-left: 12px;
+}
+
+.p3 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: left;
+}
+
+.footerinfo {
+    border: 5px solid;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    opacity: 0.75;
+}
+
+.carnivorelogos {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.Flexboxcarnivores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 75px;
+
+}
+
+.toolbar {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border: 3px solid;
+    border-color: #ffffff;
+}
+
+.hover-underline-animation {
+    display: inline;
+    position: relative;
+    color: #ffffff;
+}
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.toolist {
+    padding: 5px;
+}
+
+.gallerypad {
+    padding-right: 1rem;
+}
