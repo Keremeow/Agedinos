@@ -114,9 +114,7 @@ body {
 .Flexboxcarnivores{
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-right: 75px;
-  
+  justify-content: center;  
 }
 .toolbar {
   width: 20%;
