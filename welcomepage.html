@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agedinos Website Yönlendirme</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        #redirect-message {
+            text-align: center;
+            margin: 20% auto;
+        }
+    </style>
+</head>
+<body>
+
+<div id="redirect-message">
+    <h1>Hoş geldiniz!</h1>
+    <p>Mobil cihazlarda sadece galeri görüntülenmektedir. Yönlendiriliyorsunuz...</p>
+</div>
+
+<script>
+    if (/Mobi/.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) {
+        window.location.href = "Gallery/gallerymobile.html";
+    } else {
+        window.location.href = "index.html";
+    }
+</script>
+
+</body>
+</html>
