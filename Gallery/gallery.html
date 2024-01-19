@@ -25,79 +25,36 @@
       </div>
     </div>
     <div class="container">
-      <div class="gallery">
-        <a
-          href="ImagesGallery\anky.jpg"
-          data-lightbox="models"
-          data-title="Ankylosaurus"
-        >
-          <img class="size" src="ImagesGallery/anky.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/carcha.jpg"
-          data-lightbox="models"
-          data-title="Carcha"
-        >
-          <img class="size" src="ImagesGallery/carcha.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/diplodocus.jpg"
-          data-lightbox="models"
-          data-title="Diplodocus"
-        >
-          <img class="size" src="ImagesGallery/diplodocus.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/giga.jpg"
-          data-lightbox="models"
-          data-title="Giga"
-        >
-          <img class="size" src="ImagesGallery/giga.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/stego2.jpg"
-          data-lightbox="models"
-          data-title="Stego"
-        >
-          <img class="size" src="ImagesGallery/stego2.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/rexsample.jpg"
-          data-lightbox="models"
-          data-title="Rex"
-        >
-          <img class="size" src="ImagesGallery/rexsample.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/trike2.jpg"
-          data-lightbox="models"
-          data-title="Trike"
-        >
-          <img class="size" src="ImagesGallery/trike2.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/allosaur.jpg"
-          data-lightbox="models"
-          data-title="Allosaur"
-        >
-          <img class="size" src="ImagesGallery/allosaur.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/Spino.jpg"
-          data-lightbox="models"
-          data-title="Spinosaurus"
-        >
-          <img class="size" src="ImagesGallery/Spino.jpg" />
-        </a>
-        <a
-          href="ImagesGallery/yuty2.jpg"
-          data-lightbox="models"
-          data-title="Yutyrannus"
-        >
-          <img class="size" src="ImagesGallery/yuty2.jpg" />
-        </a>
+      <div class="image-container">
+        <div class="image"><img src="../Gallery/images/image1.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image2.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image3.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image4.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image5.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image6.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image7.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image8.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image9.jpg" alt=""></div>
+        <div class="image"><img src="../Gallery/images/image10.jpg" alt=""></div>
+      </div>
+      <div class="popup-image">
+        <span>&times;</span>
+        <img src="images/image1.jpg" alt="">
       </div>
     </div>
-    <script src="lightbox-plus-jquery.js"></script>
+    <script>
+
+      document.querySelectorAll('.image-container img').forEach(image =>{
+        image.onclick = () =>{
+            document.querySelector('.popup-image').style.display = 'block';
+            document.querySelector('.popup-image img').src = image.getAttribute('src');
+        }
+      });
+
+      document.querySelector('.popup-image span').onclick = () => {
+        document.querySelector('.popup-image').style.display = 'none';
+      }
+
+    </script>
   </body>
 </html>
