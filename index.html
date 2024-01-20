@@ -8,6 +8,20 @@
     <title>Aged Dinosaurs</title>
   </head>
   <body>
+    <div id="redirect-message" style="display: none;">
+      <h1>Hoş geldiniz!</h1>
+      <p>Mobil cihazlarda sadece galeri görüntülenmektedir. Yönlendiriliyorsunuz...</p>
+  </div>
+    <script>
+      if (/Mobi/.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) {
+          document.getElementById('redirect-message').style.display='block'
+          window.location.href = "Gallery/gallerymobile.html";
+      } else {
+        
+          // window.location.href = "index.html";
+      }
+  </script>
+  
     <div class="Flexbox">
       <div class="Logo">
         <a href="index.html">
