@@ -53,8 +53,10 @@ body {
 
 .Flexbox {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-between;
+  
+
 }
 
 .maindino {
@@ -90,6 +92,7 @@ body {
   font-size: 21.86px;
   text-align: left;
   padding-left: 12px;
+  font-family: sans-serif;
 }
 .p3{
   color: rgb(255, 255, 255);
@@ -124,6 +127,8 @@ body {
   opacity: 0.8;
   border: 2px solid;
   border-color: #ffffff;
+  font-family: sans-serif;
+  display: flex;
 }
 .hover-underline-animation {
   display: inline;
