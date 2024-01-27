@@ -70,11 +70,12 @@ body {
 
 .p2 {
     color: rgb(255, 255, 255);
-    font-size: 23px;
+    font-size: 21px;
     text-align: left;
     padding-left: 12px;
     margin-right: 1%;
     margin-bottom: 0;
+    font-family: sans-serif;
 }
 
 .p3 {
